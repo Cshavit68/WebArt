@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebArt</title>
+        <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:200|Raleway:100" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="includes/styleLayout1.css">
+
+    </head>
+    <body>
+
+      <div id="wrapper">
+
+          <header>
+    	       <a href="index.html" id="logo"></a>
+             <nav>
+               <ul>
+                 <li><a href="#artists">A R T I S T S</a></li>
+                 <li><a href="#galleries">G A L L E R I E S</a></li>
+                 <li><a href="#aboutUs">A B O U T - U S</a></li>
+               </ul>
+             </nav>
+             <article id="utilities">
+               <ul>
+                 <li><button id="click-login">Login</button></li>
+                 <li><button>Join</button></li>
+               </ul>
+             </article>
+            <a href="#aboutUs" id="afterFold"></a>
+          </header>
+          <section id="login">
+            <button id="closeLogin"></button>
+            <h4>Login</h4>
+            <section>
+              <label for="userName">User Name</label>
+              <input type="text" name="userName" id="userName" >
+              <label for="userName">Password</label>
+              <input type="password" name="password" id="password" >
+            </section>
+            <section>
+              <a href="https://plus.google.com/"><img src="images/google-plus.png" alt="Login via Google+"></a>
+              <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Login via Facebook"></a>
+            </section>
+            <input type="button" id="btn-login" value="Login">
+          </section>
+        <section class="mobile">
+          <img id="logo_mobile" src="images/Logo2.png">
+          <a><img src="images/login_fb.png"></a>
+          <img src="images/or.png">
+          <form>
+            <section>
+              <label for="userNameMobile"></label>
+              <input type="text" name="serNameMobile" placeholder="User Name" id="userNameMobile">
+            </section>
+            <section>
+              <label for="passwordMobile"></label>
+              <input type="password" name="passwordMobile" placeholder="Password" id="passwordMobile">
+            </section>
+          </form>
+          <p>Forget your password?</p>
+          <input  type="button" id="btn-login-mobile" value="btn-login-mobile">
+        </section>
+          <main>
+            <section id="aboutUs">
+              <h2>ABOUT US</h2>
+              <article >
+                <img src="images/cChen.png" alt="Chen Shavit">
+              </article>
+              <p>
+              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+              </p>
+              <p>
+               Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+              </p>
+              <p>
+              Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics.Contrary to popular belief, Lorem Ipsum is not simply random text.
+              </p>
+            </section>
+            <section id="galleries">
+              <h2>GALLERIES</h2>
+              <article class="row">
+                <article class="column" id="up">
+                  <a class="example-image-link" href="images/g1.jpg" data-lightbox="WebArt Galleries" data-title="Sunny Japan Gallery">
+                    <img class="example-image" src="images/g1.jpg" alt="Sunny Japan Gallery"/>
+                  </a>
+                  <a class="example-image-link" href="images/g2.jpg" data-lightbox="WebArt Galleries" id="pink" data-title="Think Pink Gallery">
+                    <img class="example-image" src="images/g2.jpg" alt="Think Pink Gallery" />
+                  </a>
+                </article>
+                <article class="column">
+                  <a class="example-image-link" href="images/g3.jpg" data-lightbox="WebArt Galleries" data-title="Horizon Gallery">
+                    <img class="example-image" src="images/g3.jpg" id="horizon" alt="Horizon Gallery" />
+                  </a>
+                </article>
+                <article class="column">
+                  <a class="example-image-link" href="images/g4.jpg" data-lightbox="WebArt Galleries" data-title="Marvel Gallery">
+                    <img class="example-image" src="images/g4.jpg" alt="Marvel Gallery" />
+                  </a>
+                  <a class="example-image-link" href="images/g5.jpg" data-lightbox="WebArt Galleries" data-title="I See Fire Gallery">
+                    <img class="example-image" src="images/g5.jpg" id="fire" alt="I See Fire Gallery" />
+                  </a>
+                </article>
+              </article>
+            </section>
+            <section id="artists">
+              <h2>ARTISTS</h2>
+              <article>
+                <section>
+                  <img src="images/c-david.png" alt="David Levy">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and type industry. Lorem Ipsum has been the industry's standard.
+                  </p>
+                </section>
+                <section>
+                  <img src="images/c-tina.png" alt="Tina Daray">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and type industry. Lorem Ipsum has been the industry's standard.
+                  </p>
+                </section>
+                <section>
+                  <img src="images/c-roy.png" alt="Roy Brown">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and type industry. Lorem Ipsum has been the industry's standard.
+                  </p>
+                </section>
+              </article>
+            </section>
+          </main>
+          <footer>
+            <section>
+              <h3>
+                So what are you waiting for?
+              </h3>
+              <h3>
+                Join us, make your dream become real!
+              </h3>
+            </section>
+            <section>
+              <section>
+                <a href="https://twitter.com/" target="_blank"><img src="images/icon-twitter.png" alt="Twitter icon"></a>
+                <a href="https://www.messenger.com/" target="_blank"><img src="images/icon-facebook-messenger.png" alt="Twitter icon"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/icon-facebook.png" alt="Twitter icon"></a>
+              </section>
+              <span>Copyright 2017 WebArt&reg;</span>
+            </section>
+        </footer>
+
+        <!--CDN-->
+
+      </div>
+
+        <!--Controllers-->
+        <script src="includes/db.json"></script>
+        <script src="includes/scripts.js"></script>
+    </body>
+</html>
